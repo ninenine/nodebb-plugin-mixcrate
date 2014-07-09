@@ -1,6 +1,7 @@
-(function (module) {
-  'use strict';
-  var request = require('request');
+'use strict';
+var request = require('request');
+
+(function(module) {
   var Mixcrate = {
   },
   embed = '<embed type="application/x-shockwave-flash" flashvars="audioUrl=$1" src="https://dl.dropboxusercontent.com/u/17757917/3523697345-audio-player.swf" width="400" height="27" quality="best"></embed>';
