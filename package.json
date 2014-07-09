@@ -1,7 +1,7 @@
 {
-  "name": "nodebb-plugin-youtube",
-  "version": "0.0.6",
-  "description": "NodeBB YouTube Plugin",
+  "name": "nodebb-plugin-mixcrate",
+  "version": "0.0.1",
+  "description": "NodeBB Mixcrate Plugin",
   "main": "library.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
