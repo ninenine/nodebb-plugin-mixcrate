@@ -24,6 +24,9 @@
     "email": "davisjwn@gmail.com"
   },
   "license": "BSD-2-Clause",
+  "dependencies": {
+    "request": "^2.34.0"
+  },
   "bugs": {
     "url": "https://github.com/ninenine/nodebb-plugin-mixcrate/issues"
   },
