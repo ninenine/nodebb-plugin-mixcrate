@@ -1,0 +1,13 @@
+{
+	"id": "nodebb-plugin-mixcrate",
+	"name": "NodeBB Mixcrate Plugin",
+	"description": "NodeBB Plugin that allows users to embed music from Mixcrate inline in their posts.",
+	"url": "https://github.com/ninenine/nodebb-plugin-mixcrate",
+	"library": "./library.js",
+	"hooks": [
+		{ "hook": "filter:post.parse", "method": "parse", "callbacked": true, "priority": 6 }
+	],
+	"css": [
+		"static/style.css"
+	]
+}

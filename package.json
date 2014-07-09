@@ -1,0 +1,34 @@
+{
+  "name": "nodebb-plugin-youtube",
+  "version": "0.0.6",
+  "description": "NodeBB YouTube Plugin",
+  "main": "library.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ninenine/nodebb-plugin-mixcrate"
+  },
+  "keywords": [
+    "nodebb",
+    "plugin",
+    "mixcrate",
+    "mix",
+    "dj",
+    "music",
+    "embed"
+  ],
+  "author": {
+    "name": "Davis Wainaina",
+    "email": "davisjwn@gmail.com"
+  },
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/ninenine/nodebb-plugin-mixcrate/issues"
+  },
+  "readme": "",
+  "readmeFilename": "README.md",
+  "_id": "nodebb-plugin-mixcrate@0.0.1",
+  "_from": "nodebb-plugin-mixcrate@~0.0.1"
+}
