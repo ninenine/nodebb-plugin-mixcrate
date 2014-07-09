@@ -22,7 +22,9 @@
 				var urlRegex =/(?:https?:\/\/)?(?:cdn3\.)?(?:mixcrate\.com\/audio)\/(.*)mp3/g;
                 var mp3Url = body.match(urlRegex);
                 return mp3Url;
+				}
 			} 
+		}
 		callback(null, postContent);
 	};
 
