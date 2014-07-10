@@ -7,7 +7,7 @@
 	"hooks": [
 		{ "hook": "filter:post.parse", "method": "parse", "callbacked": true, "priority": 6 }
 	],
-	"css": [
-		"static/style.css"
-	]
+	"staticDirs": {
+		"public": "./public"
+	}
 }
