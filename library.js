@@ -11,7 +11,7 @@ var request = require('request');
           var mp3Url = body.match(/(?:https?:\/\/)?(?:cdn3\.)?(?:mixcrate\.com\/audio)\/(.*)mp3/g);
           //embed = '<embed type="application/x-shockwave-flash" flashvars="audioUrl='+mp3Url+'" src="https://dl.dropboxusercontent.com/u/17757917/3523697345-audio-player.swf" width="400" height="27" quality="best"></embed>';
           //postContent = postContent.replace(/<a href="(?:https?:\/\/)?(?:www\.)?(?:mixcrate\.com)\/(.+)">.+<\/a>/g, embed);
-          postContent = postContent.replace(/<a href="(?:https?:\/\/)?(?:www\.)?(?:mixcrate\.com)\/(.+)">.+<\/a>/ig,mp3Url);
+          postContent = postContent.replace(/<a href="(?:https?:\/\/)?(?:www\.)?(?:mixcrate\.com)\/(.+)">.+<\/a>/ig,"noting");
         } else {
           //console.log('error: '+ response.statusCode);
           //console.log(body);
