@@ -6,7 +6,7 @@
     if (postContent.match(/<a href="(?:https?:\/\/)?(?:www\.)?(?:mixcrate\.com)\/(.+)">.+<\/a>/ig)) {
       var mixUrl = postContent.match(/(?:https?:\/\/)?(?:www\.)?(?:mixcrate\.com)\/(.+)">/ig);
       mixUrl = mixUrl[0].replace('">', ''); // too lazy to find a better way to do it.
-      postContent = postContent.replace(/<a href="(?:https?:\/\/)?(?:www\.)?(?:mixcrate\.com)\/(.+)">.+<\/a>/ig,"mixUrl");
+      postContent = postContent.replace(/<a href="(?:https?:\/\/)?(?:www\.)?(?:mixcrate\.com)\/(.+)">.+<\/a>/ig,mixUrl);
   
       /*request(mixUrl, function (err, response, body) {
         if (!err && response.statusCode === 200) {
